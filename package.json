@@ -1,0 +1,35 @@
+{
+  "name": "jest-bdd",
+  "version": "2.0.11",
+  "description": "Execute Gherkin scenarios in Jest",
+  "scripts": {
+    "test": "jest --no-cache"
+  },
+  "keywords": [
+    "jest",
+    "gherkin",
+    "cucumber"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "babel-jest": "^24.1.0",
+    "jest-cucumber": "^2.0.11",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.7",
+    "@types/node": "^11.9.4",
+    "callsites": "^3.0.0",
+    "gherkin": "^5.0.0",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx"
+    ]
+  }
+}

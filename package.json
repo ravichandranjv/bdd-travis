@@ -2,29 +2,17 @@
   "name": "auto-pilot-bdd",
   "version": "2.0.11",
   "description": "Execute Gherkin scenarios in Jest",
-  "main": "dist/src/index.js",
-  "typings": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "jest": "jest --verbose",
     "test": "npm run build & jest --color"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bencompton/jest-cucumber.git"
-  },
-  "keywords": [
+   "keywords": [
     "jest",
     "gherkin",
     "cucumber"
   ],
-  "author": "Ben Compton",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bencompton/jest-cucumber/issues"
-  },
-  "homepage": "https://github.com/bencompton/jest-cucumber#readme",
-  "devDependencies": {
+   "devDependencies": {
     "babel-jest": "^24.1.0",
     "ts-jest": "^24.0.0",
     "tslint": "^5.10.0",

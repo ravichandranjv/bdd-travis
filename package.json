@@ -1,7 +1,8 @@
 {
   "name": "auto-pilot-bdd",
-  "version": "2.0.11",
+  "version": "1.0.1",
   "description": "Execute Gherkin scenarios in Jest",
+  "author": "Ravichandran JV",
   "scripts": {
     "build": "tsc",
     "jest": "jest --verbose",
